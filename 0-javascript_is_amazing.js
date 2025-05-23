@@ -4,5 +4,5 @@ You must create a constant variable called myVar with the value “JavaScript is
 You must use console.log(...) to print all output
 You are not allowed to use var */
 
-let myVar = "JavaScript is amazing";
-console.log(myVar);
+let testOne = "JavaScript is amazing";
+console.log(testOne);
