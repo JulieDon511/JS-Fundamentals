@@ -1,10 +1,8 @@
-const totalArgs = process.argv;
+const totalArgs = process.argv.slice(2);
 
 if (totalArgs[0]) {
-    console.log(totalArgs[0],'Argument found');   // Print the argument when it exists
+    console.log(totalArgs[0]);  
 } else {
-    console.log('No argument');  // Print "No argument" when no argument is given
+    console.log('No argument'); 
 }
 
-// 
-console.log(process.argv);
