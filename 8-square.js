@@ -6,6 +6,6 @@ if (isNaN(size) || size <= 0) {
     console.log('Missing size'); 
 } else {
     for (let i = 0; i < size; i++) { 
-        console.log(character.repeat(size)); s
+        console.log(character.repeat(size)); 
     }
 }
