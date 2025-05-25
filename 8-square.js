@@ -1,11 +1,12 @@
-const args = process.argv.slice(2); 
-const size = parseInt(args[0]); 
-const character = 'X'; 
+const args = process.argv.slice(2);
+const size = parseInt(args[0]);
 
-if (isNaN(size) || size <= 0) {
-    console.log('Missing size'); 
+// Check if the size is NaN or less than 1
+if (isNaN(size) || size < 1) {
+    console.log("Missing size");
 } else {
-    for (let i = 0; i < size; i++) { 
-        console.log(character.repeat(size)); 
+    // Loop to print the square
+    for (let i = 0; i < size; i++) {
+        console.log('X'.repeat(size)); 
     }
 }
